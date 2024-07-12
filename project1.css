@@ -1,0 +1,110 @@
+.heading p{
+    font-size:30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    color:white;
+    
+}
+.heading{
+    background-color:rgb(66, 211, 66);
+    display:flex;
+    justify-content:space-around;
+}
+.outer{
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.count-container{
+
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    border:1px solid seagreen;
+    border-radius:20px;
+    height:40%;
+    width:50%;
+    align-items: center;
+    justify-content:space-between;
+    padding:10px;
+    background-color:white;
+}
+.button{
+    padding:5px;
+}
+
+.count-title{
+    font-size:20px;
+
+}
+.count{
+    font-size:20px;
+    color:seagreen;
+}
+.button{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:seagreen;
+    background-color:white;
+    border:1px solid seagreen;
+    box-shadow:1px 1px grey 10px;
+    padding:10px;
+
+}
+.reset
+{
+    background-color:red;
+    color:white;
+    font-weight:bold;
+}
+.increment{
+    background-color:green;
+    color:white;
+    font-weight:bold;
+}
+.save{
+    background-color:rgb(225, 225, 11);
+    color:white;
+    font-weight:bold;
+}
+.save:hover{
+    background-color:rgba(225, 225, 11, 0.772);
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.increment:hover
+{
+    background-color:rgba(0, 128, 0, 0.614);
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+.reset:hover
+{
+    background-color:rgba(255, 0, 0, 0.583);
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.outer{
+    background:url("https://media.gettyimages.com/id/458929527/photo/subway-tokyo-japan.jpg?s=612x612&w=gi&k=20&c=AzeeClabUySfI3ljLftKN-OWl_Zc6_m44zK2asLL8rQ=");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+.count{
+    font-size:30px;
+    margin-bottom:0px;
+}
+.reset-msg{
+    color:red;
+    text-align:center;
+}
+
+.button{
+    box-shadow:1px 1px black 20px;
+}
